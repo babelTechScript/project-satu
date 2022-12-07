@@ -3,4 +3,18 @@ Allow: /
 
 User-agent: *
 Disallow: /
+
+# Example 2: Crawler hanya dapat mengakses subdirektori public.
+User-agent: *
+Disallow: /
 Allow: /public/
+
+
+# Example 3: Block Googlebot and Adsbot
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /
+
+# Example 3: larang gambar
+User-agent: Googlebot-Image
+Disallow: /dist/img/logoip.jpg

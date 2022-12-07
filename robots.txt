@@ -15,6 +15,6 @@ User-agent: Googlebot
 User-agent: AdsBot-Google
 Disallow: /
 
-# Example 3: larang gambar
+# Example 4: larang gambar
 User-agent: Googlebot-Image
 Disallow: /dist/img/logoip.jpg
